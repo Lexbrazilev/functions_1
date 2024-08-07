@@ -6,11 +6,12 @@ def factorial(n):
         
 a = int(input("Введите число "))
 
+a1 = factorial(a) 
+
 num = []
 
-for i in range(a, 0, -1):
+for i in range(a1, 0, -1):
     num.append(factorial(i))
 
 print(num)
-
         
